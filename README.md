@@ -1,114 +1,148 @@
-# 🚀 Portfolio Template
+# Navin Choudhary - Personal Portfolio
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![React](https://img.shields.io/badge/React-v19.1.1-blue)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v3.4.18-purple)
-![Vite](https://img.shields.io/badge/Vite-v7.1.7-orange)
+A modern and responsive personal portfolio website built using React, Vite, and Tailwind CSS. The portfolio showcases my technical skills, projects, and interests in Machine Learning, Artificial Intelligence, backend development, and software engineering.
 
-A **modern, responsive, and visually stunning portfolio template** built with **React** and **Vite**. Perfect for developers, designers, and creatives to showcase projects, skills, and contact information in a sleek, interactive format.
+## Live Website
 
----
+🌐 **Portfolio:**  
+https://navin-choudhary.github.io/navin-portfolio-se/
 
-## 🌐 Live Demo
+## About the Project
 
-[View Live Site](https://suhail472.github.io/PortfolioTemplate/)
+This portfolio was created to present my profile as a Computer Science Engineering student and aspiring Machine Learning Engineer.
 
----
+The website provides information about:
 
-## ✨ Features
+- My introduction and career interests
+- Technical skills and technologies
+- Machine Learning and software projects
+- About me section
+- Contact section
+- GitHub and professional links
 
-- Fully **responsive** design for desktop, tablet, and mobile  
-- Smooth **animations and transitions** for engaging user experience  
-- **Clean, modular, and well-commented code** for easy customization  
-- Sections for **Home**, **About**, **Portfolio/Projects**, **Skills**, and **Contact**  
-- Built with **React** and styled using **Tailwind CSS**  
-- Optimized for **performance and SEO**  
-- Easy **deployment** on GitHub Pages, Render, or Netlify  
-- **Open-source** and reusable for personal or commercial projects  
+The project is based on a React portfolio template and has been customized with my personal information, skills, projects, styling, and navigation.
 
----
+## Features
 
-## 🛠️ Tech Stack
+- Responsive portfolio design
+- Modern dark-themed UI
+- Smooth navigation between sections
+- Animated text effects
+- Interactive skill cards
+- Project showcase section
+- About Me section
+- Contact section
+- Responsive layout for desktop and mobile devices
+- Git and GitHub version control
+- Deployment using GitHub Pages
 
-- **Frontend:** React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS  
-- **Bundler:** Vite  
-- **Version Control:** Git & GitHub  
-- **Deployment:** Render, Netlify, GitHub Pages  
-- **Animations:** GSAP, Anime.js (optional for extra effects)
+## Sections
 
----
+### Home
 
-## 📁 Project Structure
+Introduces me as:
 
-PortfolioTemplate/
-├─ public/ # Static assets (favicon, images, etc.)
-├─ src/
-│ ├─ assets/ # Images, icons, SVGs
-│ ├─ components/ # Reusable React components
-│ ├─ pages/ # Main pages (Home, About, Projects, Contact)
-│ ├─ App.jsx # Main React component
-│ └─ main.jsx # Entry point
-├─ vite.config.js # Vite configuration
-├─ package.json # Project metadata and scripts
-├─ LICENSE # MIT License
-└─ README.md # Project documentation
+- ML Engineer
+- Backend Developer
+- AI/ML Developer
+- Software Engineer
 
+### Skills
 
----
-##📄 License
+The portfolio highlights technologies and tools including:
 
-**This project is open-source. You are free to use, modify, and distribute this portfolio template for personal or commercial purposes.**
+- Python
+- C++
+- Java
+- JavaScript
+- React
+- Node.js
+- Express.js
+- PostgreSQL
+- MySQL
+- Git & GitHub
+- REST APIs
+- Machine Learning
+- Scikit-learn
+- TensorFlow
+- Flask
+- Pandas
+- NumPy
 
-**Licensed under the MIT License – see the LICENSE here : [https://github.com/suhail472/PortfolioTemplate/blob/main/LICENSE](https://github.com/suhail472/PortfolioTemplate/blob/main/LICENSE)**
- ** **
+### Projects
 
-## 👨‍💻 Author
+Some of the projects showcased include:
 
-**Suheel Hilal**  
+#### MineShield
 
-- GitHub: [https://github.com/suhail472](https://github.com/suhail472)  
-- LinkedIn: [https://www.linkedin.com/in/suheel-hilal-25654833b/](https://www.linkedin.com/in/suheel-hilal-25654833b/)
-- Instagram: [https://www.instagram.com/suhail.hilal88/](https://www.instagram.com/suhail.hilal88/)
-- Email: suheelhilal92@gmail.com
+An AI-powered rockfall prediction and monitoring system for open-pit mining environments using machine learning and time-series analysis.
 
----
+**Technologies:** Python, Random Forest, LSTM, Flask, Machine Learning
 
-## ⚙️ Installation & Local Development
+#### Diabetes Prediction Web App
 
-1. **Clone the repository:**
+A machine learning web application that predicts the likelihood of diabetes using a trained classification model and Flask API.
 
-```bash
-git clone https://github.com/suhail472/PortfolioTemplate.git
-cd PortfolioTemplate
+**Technologies:** Python, Scikit-learn, Flask, Node.js, Express
 
-## 🛠️ Install dependencies:
+#### Student Attendance Tracker
 
-2. **Install dependencies:**
+A desktop application for managing student attendance and records using Java and MySQL.
 
-```bash
-npm install
+**Technologies:** Java, AWT, JDBC, MySQL
 
+#### Subject Selection Portal
 
-3. **Run the development server:**
-```bash
-npm run dev
+A web-based application that allows students to select and manage academic subjects.
 
-4. **Open in your browser:**
+**Technologies:** Node.js, Express, EJS, PostgreSQL
 
-```bash
+## Technology Stack
 
-http://localhost:5173
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend UI development |
+| Vite | Development and build tool |
+| JavaScript | Application logic |
+| Tailwind CSS | Styling and responsive design |
+| HTML | Page structure |
+| Git | Version control |
+| GitHub | Source code hosting |
+| GitHub Pages | Website deployment |
 
-##🚀 Deployment
+## Project Structure
 
-1. **Build the project:1. **       
-```bash
-npm run build
-
-2. **Publish the dist folder to GitHub Pages, Render, or Netlify.**
-
-3. **Your portfolio will be live on your chosen URL.**
-
-
-
-
+```text
+navin-portfolio-se/
+│
+├── public/
+│
+├── src/
+│   ├── Components/
+│   │   ├── Header/
+│   │   ├── Footer/
+│   │   ├── RotatingText/
+│   │   └── TextTyping/
+│   │
+│   ├── Images/
+│   │
+│   ├── Sections/
+│   │   ├── Home.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── About.jsx
+│   │   └── ContactUs.jsx
+│   │
+│   ├── Styles/
+│   │
+│   ├── Templates/
+│   │   ├── Portfolio.jsx
+│   │   └── PortfolioMainContent.jsx
+│   │
+│   ├── App.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+├── index.html
+└── README.md
