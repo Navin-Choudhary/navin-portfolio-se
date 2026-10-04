@@ -62,7 +62,7 @@ function ContactUs() {
             <p>
               LinkedIn:{" "}
               <span className="text-sky-400">
-                linkedin.com/in/yourusername
+                linkedin.com/in/navin-choudhary
               </span>
             </p>
 

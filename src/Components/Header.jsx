@@ -7,7 +7,7 @@ export default function Header() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPos = window.scrollY + window.innerHeight / 2;
-      const sections = ["home", "about", "skills", "contact"];
+      const sections = ["home", "about", "skills", "contact", "projects"];
 
       sections.forEach((id) => {
         const section = document.getElementById(id);
@@ -30,12 +30,13 @@ export default function Header() {
     { id: "skills", label: "Skills" },
     { id: "about", label: "About" },
     { id: "contact", label: "Contact" },
+    { id: "projects", label: "Projects" },
   ];
 
   return (
     <header className="w-screen bg-slate-900/80 backdrop-blur-md fixed top-0 z-50 shadow-md border-b-2 border-sky-400 box-border">
       <div className="max-w-7xl mx-auto flex justify-between items-center h-20 px-6 sm:px-10">
-        <div className="text-2xl font-bold text-sky-400 animate-pulse">Suhail</div>
+        <div className="text-2xl font-bold text-sky-400 animate-pulse">Navin</div>
 
         <ul className="hidden md:flex gap-10 text-white font-medium">
           {navItems.map((item) => (
